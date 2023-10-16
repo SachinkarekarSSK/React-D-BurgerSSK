@@ -12,7 +12,7 @@ const ProductCard = (props)=>{
     return(
         <>
         <div className="card w-56 flex flex-col justify-center items-center py-2  bg-base-100 shadow-xl hover:shadow-md rounded-lg bg-white group">
-                        <figure className="px-5 py-5 h-52 w-52 overflow-hidden ">
+                        <figure className="px-2 py-2 h-52 w-52 overflow-hidden ">
                             <img src={burgerimage} alt="Shoes" className="rounded-xl h-full w-full bg-slate-400 " />
                         </figure>
                         <div className="card-body items-center text-center p-2 w-full">

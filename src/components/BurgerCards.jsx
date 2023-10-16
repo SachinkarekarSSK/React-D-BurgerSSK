@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ProductCard from "./ProductCard";
+import SkeletonLodingCard from "./SkeletonLoadingCard";
 import bg1 from '../assets/burger1.jpg'
 import bg2 from '../assets/burger2.jpg'
 import bg3 from '../assets/burger3.jpg'
@@ -63,14 +64,22 @@ const Burgers = [
 
 
 
+
+
+
 const BurgerCards = ()=>{
+
+    
+    
     return(
         <>
+
             { 
                 Burgers.map((item,index)=>{
                     return( <ProductCard key={index} burgerName={item.burgerName} burgerPrice={item.Price} burgerimage={item.image}/>)
                 })
             }
+        
         </>
     )
 }

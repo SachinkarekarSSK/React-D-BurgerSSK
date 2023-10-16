@@ -4,9 +4,12 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import MenuSection from './components/MenuSection'
 import ProductMenu from './components/ProductMenu'
+import CustomizeSection from './components/CustomizeSection'
+import SkeletonLodingCard from './components/SkeletonLoadingCard'
 
 function App() {
   const [burgersorDrinks, setburgersorDrinks] = useState(true)
+  const [isLoading, setisLoading] = useState(true)
 
   function drinks(){
     setburgersorDrinks(false)
@@ -16,6 +19,8 @@ function App() {
     setburgersorDrinks(true)
   }
 
+  
+
   return (
     <>
       <Navbar />
@@ -23,6 +28,9 @@ function App() {
       <MenuSection drinks = {drinks} burgers={burgers} />
 
       <ProductMenu burgersorDrinks={burgersorDrinks}/>
+      <CustomizeSection />
+
+      <SkeletonLodingCard />
     </>
   )
 }
