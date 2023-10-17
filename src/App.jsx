@@ -9,14 +9,17 @@ import SkeletonLodingCard from './components/SkeletonLoadingCard'
 
 function App() {
   const [burgersorDrinks, setburgersorDrinks] = useState(true)
+  const [BorD, setBorD] = useState("Burger's")
   const [isLoading, setisLoading] = useState(true)
 
   function drinks(){
     setburgersorDrinks(false)
+    setBorD("Drink's")
   }
 
   function burgers(){
     setburgersorDrinks(true)
+    setBorD("Burger's")
   }
 
   
@@ -27,10 +30,9 @@ function App() {
       <Home />
       <MenuSection drinks = {drinks} burgers={burgers} />
 
-      <ProductMenu burgersorDrinks={burgersorDrinks}/>
+      <ProductMenu burgersorDrinks={burgersorDrinks} title={BorD}/>
       <CustomizeSection />
 
-      <SkeletonLodingCard />
     </>
   )
 }

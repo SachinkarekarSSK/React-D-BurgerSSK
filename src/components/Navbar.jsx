@@ -15,12 +15,12 @@ const Navbar = () => {
         </div>
 
         </div>
-        <div className={`movingNav block sm:hidden fixed ${navShowORHide ? 'left-0' : '-left-full'} top-[52px]  w-full h-60 m-auto  transition-all duration-500 shadow-md  z-10 bg-white  bg-opacity-60 backdrop-blur`}>
+        <div className={`movingNav block sm:hidden fixed ${navShowORHide ? 'left-0' : '-left-full'} top-[52px]  w-full h-96 m-auto  transition-all duration-500 shadow-md  z-10 bg-white  bg-opacity-60 backdrop-blur`}>
             <ul className="flex flex-col justify-center items-center font-semibold gap-4 m-auto h-full">
-              <li className="px-5 hover:text-red-600">Home</li>
-              <li className="px-5 hover:text-red-600">About</li>
-              <li className="px-5 hover:text-red-600">Menu</li>
-              <li className="px-5 hover:text-red-600">Contact</li>
+              <button className="px-5 btn btn-outline btn-secondary btn-md p-1 rounded-sm ">Home</button>
+              <button className="px-5 btn btn-outline btn-secondary btn-md p-1 rounded-sm">About</button>
+              <button className="px-5 btn btn-outline btn-secondary btn-md p-1 rounded-sm">Menu</button>
+              <button className="px-5 btn btn-outline btn-secondary btn-md p-1 rounded-sm">Contact</button>
             </ul>
 
       </div>

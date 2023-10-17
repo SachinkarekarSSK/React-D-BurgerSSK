@@ -54,11 +54,7 @@ const Burgers = [
         Price : '30',
         image : `${bg8}`,
     },
-    {
-        burgerName : 'Non Veg Burger',
-        Price : '30',
-        image : `${bg9}`,
-    },
+
 
 ]
 
