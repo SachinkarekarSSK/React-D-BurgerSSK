@@ -1,9 +1,5 @@
 import React from "react";
 import ProductCard from "./ProductCard";
-
-
-
-
 import drink1 from '../assets/drink1.jpg'
 import drink2 from '../assets/drink2.jpg'
 import drink3 from '../assets/drink3.jpg'

@@ -28,6 +28,10 @@ const Navbar = () => {
 
 
 
+
+
+
+
       {/* this is for the bigger screen */}
       <div className="mynavBIG hidden sm:block  bg-opacity-80 backdrop-blur bg-black text-white">
         <div className="MainBox flex align-middle justify-between py-4 px-3">
@@ -46,6 +50,10 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+
+
+
+
     </>
   );
 };
