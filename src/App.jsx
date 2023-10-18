@@ -6,6 +6,8 @@ import MenuSection from './components/MenuSection'
 import ProductMenu from './components/ProductMenu'
 import CustomizeSection from './components/CustomizeSection'
 import SkeletonLodingCard from './components/SkeletonLoadingCard'
+import Testimonials from './components/Testimonials'
+import Footer from './components/Footer'
 
 function App() {
   const [burgersorDrinks, setburgersorDrinks] = useState(true)
@@ -32,7 +34,8 @@ function App() {
 
       <ProductMenu burgersorDrinks={burgersorDrinks} title={BorD}/>
       <CustomizeSection />
-
+      <Testimonials />
+      <Footer />
     </>
   )
 }
