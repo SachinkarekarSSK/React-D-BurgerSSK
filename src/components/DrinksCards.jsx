@@ -1,14 +1,6 @@
 import React from "react";
 import ProductCard from "./ProductCard";
-import drink1 from '../assets/drink1.jpg'
-import drink2 from '../assets/drink2.jpg'
-import drink3 from '../assets/drink3.jpg'
-import drink4 from '../assets/drink4.jpg'
-import drink5 from '../assets/drink5.jpg'
-import drink6 from '../assets/drink6.jpg'
-import drink7 from '../assets/drink7.jpg'
-import drink8 from '../assets/drink8.jpg'
-import drink9 from '../assets/drink9.jpg'
+
 
 
 
@@ -18,47 +10,47 @@ const Drinks = [
     {
         burgerName : 'Mohito',
         Price : '80',
-        image : `${drink1}`,
+        image : 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZHJpbmtzfGVufDB8MHwwfHx8MA%3D%3D',
     },
     {
         burgerName : 'Mountain due',
         Price : '90',
-        image : `${drink2}`,
+        image : 'https://images.unsplash.com/photo-1560508180-03f285f67ded?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGRyaW5rc3xlbnwwfDB8MHx8fDA%3D',
     },
     {
         burgerName : 'sprite',
         Price : '100',
-        image : `${drink3}`,
+        image : 'https://images.unsplash.com/photo-1542849187-5ec6ea5e6a27?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGRyaW5rc3xlbnwwfDB8MHx8fDA%3D',
     },
     {
         burgerName : 'Budvieser',
         Price : '30',
-        image : `${drink4}`,
+        image : 'https://images.unsplash.com/photo-1589132971214-ed8169976abd?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODR8fGRyaW5rc3xlbnwwfDB8MHx8fDA%3D',
     },
     {
         burgerName : 'kingfisher',
         Price : '30',
-        image : `${drink5}`,
+        image : 'https://images.unsplash.com/photo-1542847890-8c4210389b23?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTJ8fGRyaW5rc3xlbnwwfDB8MHx8fDA%3D',
     },
     {
         burgerName : 'jhonny walker',
         Price : '30',
-        image : `${drink6}`,
+        image : 'https://images.unsplash.com/photo-1573500883495-6c9b16d88d8c?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fGRyaW5rc3xlbnwwfDB8MHx8fDA%3D',
     },
     {
         burgerName : 'black dog',
         Price : '30',
-        image : `${drink7}`,
+        image : 'https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA0fHxkcmlua3N8ZW58MHwwfDB8fHww',
     },
     {
         burgerName : 'black & white',
         Price : '30',
-        image : `${drink8}`,
+        image : 'https://images.unsplash.com/photo-1641919089328-5d5063828c4f?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTg0fHxkcmlua3N8ZW58MHwwfDB8fHww',
     },
     {
         burgerName : 'Blue lagoon',
         Price : '30',
-        image : `${drink9}`,
+        image : 'https://images.unsplash.com/photo-1591254483456-4f7a693fda23?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGNva2V8ZW58MHwwfDB8fHww ',
     },
 
 ]
